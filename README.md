@@ -16,7 +16,7 @@ Projeto desenvolvido para praticar front-end e fortalecer meu portfólio.
 Praticar desenvolvimento front-end, lógica e construção de interfaces reais.
 
 ## 🖥️ Demonstração
-(Coloque aqui o link do GitHub Pages depois)
+https://akino-0.github.io/Controle-de-H-bitos/
 
 ## 📂 Como executar
 ```bash
