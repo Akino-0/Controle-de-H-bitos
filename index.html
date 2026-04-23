@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Controle de Hábitos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>🔥 Controle de Hábitos</h1>
+
+    <!-- INPUT -->
+    <div class="input-area">
+      <input 
+        type="text" 
+        id="inputHabito" 
+        placeholder="Digite um hábito..."
+        onkeypress="if(event.key==='Enter') adicionarHabito()"
+      >
+      <button onclick="adicionarHabito()">Adicionar</button>
+    </div>
+
+    <!-- INFO -->
+    <p id="dataHoje"></p>
+
+    <!-- LISTA -->
+    <div id="listaHabitos"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
